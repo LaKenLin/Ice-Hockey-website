@@ -7,12 +7,9 @@ import java.util.ArrayList;
 // The DatabaseHelper class encapsulates the communication with our database
 class DatabaseHelper {
     // Database connection info
-    private static final String DB_CONNECTION_URL = "jdbc:oracle:thin:@oracle-lab.cs.univie.ac.at:1521:lab";
-    private static final String USER = "a01506926";
-    private static final String PASS = "dbs19";
-
-    // The name of the class loaded from the ojdbc14.jar driver file
-    //private static final String CLASSNAME = "oracle.jdbc.driver.OracleDriver";
+    private static final String DB_CONNECTION_URL = ""; // information removed.
+    private static final String USER = "";
+    private static final String PASS = "";
 
     // We need only one Connection and one Statement during the execution => class variable
     private static Statement stmt;
